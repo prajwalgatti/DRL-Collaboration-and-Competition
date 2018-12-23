@@ -55,7 +55,7 @@ Critic(
 
 ## Plot of Rewards 
 
-[](https://github.com/prajwalgatti/DRL-Collaboration-and-Competition/blob/master/plot.png)
+![](https://github.com/prajwalgatti/DRL-Collaboration-and-Competition/blob/master/plot.png)
 
 The saved weights of the Actor and Critic networks can be found [here.](https://github.com/prajwalgatti/DRL-Collaboration-and-Competition/tree/master/savedmodels)
 
