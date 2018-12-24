@@ -1,4 +1,10 @@
-## Project Description
+[//]: # (Image References)
+
+[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
+
+## Description
+
+![Trained Agent][image1]
 
 The goal of the project is to create an agent that learns how to efficiently solve the  unity3D [Tennis](https://www.youtube.com/watch?v=RDaIh7JX6RI&feature=youtu.be) environment. While active the agent is trying to approximate the policy that defines his behaviour and tries to maximize the performance in the context of the environment.
 
@@ -6,6 +12,7 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
+The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
 ## Learning Algorithm Implemented
 
@@ -61,6 +68,10 @@ The saved weights of the Actor and Critic networks can be found [here.](https://
 
 It took the networks 2087 episodes to be able to perform with not less than score of 0.500 as an average of 100 episodes.
 Training it different times give us more or less number of episodes to solve sometimes. It can also be reduced by tuning the hyperparameters.
+
+Follow the setup [here.](https://github.com/prajwalgatti/DRL-Collaboration-and-Competition/blob/master/Setup_instructions.md)
+
+Follow this [notebook](https://github.com/prajwalgatti/DRL-Collaboration-and-Competition/blob/master/Tennis.ipynb) for training models.
 
 
 ## Ideas for Future Work
