@@ -5,7 +5,7 @@
 
 ![Trained Agent][image1]
 
-The goal of the project is to create an agent that learns how to efficiently solve the  unity3D [Tennis](https://www.youtube.com/watch?v=RDaIh7JX6RI&feature=youtu.be) environment. While active the agent is trying to approximate the policy that defines his behaviour and tries to maximize the performance in the context of the environment.
+The goal of the project is to create an agent that learns how to efficiently solve a Tennis environment made with Unity-ML agents. While active the agent is trying to approximate the policy that defines his behaviour and tries to maximize the performance in the context of the environment.
 
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
